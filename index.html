@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: #FFFACD;
+        }
+        .head{
+            text-align: center; 
+
+        }
+     
+        .next{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:30px;
+            width:10%;
+            align-self: center;
+            color:#32CD32;
+            font-size:medium;
+            font-weight: bold;
+            left: 50vw;
+            position: absolute;
+            font-size: 1.5rem;
+        top:60vh;
+        left: 45vw;
+     font-family: 'Bangers', sans-serif;
+
+        }
+        .joke {
+            font-weight: bold;
+            font-size: medium;
+            font-size: 2rem;
+         color: #000000;       
+    font-family: 'Amatic SC', sans-serif;
+
+        }
+        button:hover {
+  background-color: #FF6347;  /* Change background color on hover */
+  color: #fff;  /* Change text color */
+  transform: scale(1.1);  /* Slightly enlarge the button */
+}
+        .board{
+            display: flex;
+            align-items: center;
+         margin-left: auto;
+         margin-right: auto;
+         flex-direction: column;
+        position: absolute;
+        top:30vh;
+        left: 15vw;
+        
+        }
+    </style>
+</head>
+<body>  
+
+    <h1 class="head">Jokes</h1>
+    <div class="board"> 
+        <h4 class="joke"></h4>   
+    </div>
+    <button class="next">Next</button>
+    <script src="script1.js"> </script>
+  
+</body>
+</html>
